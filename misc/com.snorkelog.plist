@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!--
+    You can set this as a LaunchAgents, update path to snorkelog.sh below,
+    copy this file into ~/Library/LaunchAgents then do
+
+    launchctl -w load ~/Library/LaunchAgents/com.snorkelog.plist
+
+    Then you can do the 
+
+    launchctl start ...
+    launchctl stop ...
+
+    commands to kick it off
+-->
+
+<plist version="1.0">
+<dict>
+   <key>Label</key>
+   <string>com.snorkelog</string>
+   <key>Program</key>
+   <string>/Users/YOUR_USERNAME/snorkelog/snorkelog.sh</string>
+   <key>RunAtLoad</key>
+   <true/>
+</dict>
+</plist>
