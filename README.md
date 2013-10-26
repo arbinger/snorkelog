@@ -17,6 +17,7 @@ visual log of the days events.
         get current foreground window *C*
         if *L* is not *C*:
             save screenshot as *timestamped image file*
+            set *L* to *C*
         else:
             if *T* is greater than some threshold (every 20 minutes?):
                 save screenshot as *timestamped image file*
