@@ -25,7 +25,7 @@ This can be built on Windows and OSX.
 
 ## Windows
 
-In the *Visual Studio Command Line* (I used 2012), do
+In the **Visual Studio Command Prompt** (I used 2012), do
 
     cl.exe /I src /D DEBUG /EHsc main.cpp /link user32.lib Gdi32.lib Gdiplus.lib /OUT:snorkelog.exe
 
