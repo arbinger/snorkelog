@@ -8,8 +8,6 @@ busy developers (or others) who need to report their daily activity. Throughout
 the day, grabs screenshots as windows change and activity occurs, creating a
 visual log of the days events.
 
-
-
 ## How it works (basically)
 
     init global last window id *L*
@@ -37,7 +35,7 @@ To build:
 
     clang++ -D SNRELEASE -framework ApplicationServices -framework Foundation snorkelog-osx.mm -o snorkelog
 
-Note, for both, see the source file comments for more details
+Note, for both platforms, see the source file comments for more details
 
 ## License
 
